@@ -34,7 +34,7 @@ mariadb_config = {
     "MARIADB_PASSWORD": MARIADB_PASSWORD
 }
 
-agent.write_envfile("maria-db.env", mariadb_config)
+agent.write_envfile("database.env", mariadb_config)
 
 
 # just before starting systemd unit
